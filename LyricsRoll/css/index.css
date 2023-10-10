@@ -1,0 +1,33 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color:#000;
+    color: #666;
+    text-align: center;
+}
+audio {
+    width: 450px;
+    margin: 30px 0;
+}
+.container {
+    height: 420px;
+    overflow: hidden;
+    /* border: 2px solid #fff; */
+}
+.container ul {
+    /* border: 2px solid #fff; */
+    list-style: none;
+    transition: 0.2s;/*只针对数值属性的过度，实现动画效果*/
+}
+.container li {
+    height: 30px;
+    line-height: 30px;
+    transition: 0.2s;
+}
+.container li.active {
+    color: #fff;
+    /*font-size: 1.2em;会影响布局所以不用*/
+    transform: scale(1.2);
+}
